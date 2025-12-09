@@ -1,6 +1,5 @@
 <?php
-    @BirthdayHelloDecorator
     $hello = new Hello();
-    //$birthdayHello = new BirthdayHelloDecorator($hello);
+    $birthdayHello = new BirthdayHelloDecorator($hello);
 
     $birthdayHello->sayHello("Aurélien");
